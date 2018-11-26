@@ -54,14 +54,38 @@
 		6B84489621AC4998006AC37B /* DataProject */ = {
 			isa = PBXGroup;
 			children = (
-				6B84489721AC4998006AC37B /* AppDelegate.swift */,
-				6B84489921AC4998006AC37B /* ViewController.swift */,
-				6B84489B21AC4998006AC37B /* Main.storyboard */,
-				6B84489E21AC49A2006AC37B /* Assets.xcassets */,
-				6B8448A021AC49A2006AC37B /* LaunchScreen.storyboard */,
-				6B8448A321AC49A2006AC37B /* Info.plist */,
+				6B8448AB21AC4A98006AC37B /* Controller */,
+				6B8448AA21AC4A75006AC37B /* View */,
+				6B8448A921AC4A66006AC37B /* Resources */,
 			);
 			path = DataProject;
+			sourceTree = "<group>";
+		};
+		6B8448A921AC4A66006AC37B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B84489E21AC49A2006AC37B /* Assets.xcassets */,
+				6B84489721AC4998006AC37B /* AppDelegate.swift */,
+				6B8448A321AC49A2006AC37B /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6B8448AA21AC4A75006AC37B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6B84489B21AC4998006AC37B /* Main.storyboard */,
+				6B8448A021AC49A2006AC37B /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B8448AB21AC4A98006AC37B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6B84489921AC4998006AC37B /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +304,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DataProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -288,6 +314,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = CTEC.DataProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,7 +324,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DataProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +334,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = CTEC.DataProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
